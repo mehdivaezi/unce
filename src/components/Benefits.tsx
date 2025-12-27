@@ -25,9 +25,9 @@ const Benefits = () => {
                 <Crown className="w-4 h-4 text-primary" />
                 <span className="text-sm text-primary font-medium">مزایای عضویت</span>
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                چرا به خبرنامه <span className="text-gradient-gold">زرین نیوز</span> بپیوندید؟
-              </h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              چرا به خبرنامه <span className="text-gradient-gold">اونس</span> بپیوندید؟
+            </h2>
               <p className="text-muted-foreground">
                 با عضویت در خبرنامه تخصصی ما، همیشه یک قدم جلوتر از بازار باشید و تصمیمات بهتری بگیرید
               </p>

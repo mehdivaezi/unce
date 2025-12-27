@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <Sparkles className="w-8 h-8 text-primary" />
-              <span className="text-xl font-bold text-gradient-gold">زرین نیوز</span>
+              <span className="text-xl font-bold text-gradient-gold">اونس</span>
             </div>
             <p className="text-sm text-muted-foreground mb-4">
               مرجع تخصصی اخبار و تحلیل بازار طلا و جواهر ایران
@@ -30,7 +30,6 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#" className="hover:text-primary transition-colors">صفحه اصلی</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">قیمت طلا</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">اخبار و مقالات</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">تحلیل بازار</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">درباره ما</a></li>
             </ul>
@@ -54,15 +53,15 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>۰۲۱-۱۲۳۴۵۶۷۸</span>
+                <span dir="ltr">۰۲۱۵۵۹۳۰۶۱۴</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>info@zarinnews.ir</span>
+                <span>کدپستی: ۱۸۷۵۹۴۳۷۳۳</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary shrink-0 mt-1" />
-                <span>تهران، خیابان ولیعصر، برج طلایی</span>
+                <span>تهران، شهرری میدان سلمان فارسی، خیابان گل افشاری، بن بست دهیم فرد</span>
               </li>
             </ul>
           </div>
@@ -71,7 +70,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="mt-12 pt-6 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © ۱۴۰۳ زرین نیوز. تمامی حقوق محفوظ است.
+            © ۱۴۰۳ اونس. تمامی حقوق محفوظ است.
           </p>
           <div className="flex gap-4 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">حریم خصوصی</a>
