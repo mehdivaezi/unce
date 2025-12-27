@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import GoldPrices from "@/components/GoldPrices";
-import NewsSection from "@/components/NewsSection";
 import MarketAnalysis from "@/components/MarketAnalysis";
 import Benefits from "@/components/Benefits";
 import Testimonials from "@/components/Testimonials";
@@ -16,9 +15,6 @@ const Index = () => {
         <Hero />
         <section id="prices">
           <GoldPrices />
-        </section>
-        <section id="news">
-          <NewsSection />
         </section>
         <section id="analysis">
           <MarketAnalysis />

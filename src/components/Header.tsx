@@ -8,7 +8,6 @@ const Header = () => {
   const navLinks = [
     { label: "صفحه اصلی", href: "#" },
     { label: "قیمت طلا", href: "#prices" },
-    { label: "اخبار", href: "#news" },
     { label: "تحلیل بازار", href: "#analysis" },
     { label: "درباره ما", href: "#about" },
   ];
@@ -20,7 +19,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <Sparkles className="w-8 h-8 text-primary" />
-            <span className="text-xl font-bold text-gradient-gold">زرین نیوز</span>
+            <span className="text-xl font-bold text-gradient-gold">اونس</span>
           </div>
 
           {/* Desktop Navigation */}
