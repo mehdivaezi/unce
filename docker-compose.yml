@@ -1,0 +1,11 @@
+services:
+  unce-test:
+    build: .
+    container_name: unce-test
+    restart: unless-stopped
+    networks:
+      - mehdi-net
+
+networks:
+  mehdi-net:
+    external: true
